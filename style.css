@@ -1,7 +1,7 @@
 body {
   background-color: rgb(248, 109, 109);
   color: black;
-  height: 100%%;
+  height: 80rem;
   margin: auto;
   text-align: center;
 }
@@ -35,14 +35,14 @@ body {
   }
 
 img {
-  height: 300px;
-  width: 300px;
+  height: 200px;
+  width: 200px;
   padding-right: 20px;
 }
 
 .Home {
   display: flex;
-  margin: 50px 200px;
+  margin: 50px 400px;
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: larger;
   text-align: justify;
@@ -50,6 +50,17 @@ img {
 
 #item img{
   width:600px;
+}
+
+#list{
+  color: white;
+}
+li{
+  list-style: none;
+  display: inline-table;
+  border-color: #042747;
+  margin: auto;
+  color: white;
 }
 
 a {
